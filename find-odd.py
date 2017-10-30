@@ -3,4 +3,4 @@ def findodd(b):
         if (a%2)-1==0:
             print(a)
 
-findodd(23)
+findodd(18)
