@@ -1,12 +1,11 @@
-def findprime(num):
+def findprime(r):
+    for a in range(2,r+1):
+        #k = 0
+        for i in range(2,a//2):
+            if a % i == 0:
+                #k=k+1
+                #if k<=0:
+                    print(a)
+                    break
 
-    if num > 1:
-
-        for i in range(2, num):
-            if (num % i) == 0:
-                print(num, "is not a prime number")
-
-            else:
-                print(num, "is a prime number")
-
-    findprime(10)
+findprime(13)
